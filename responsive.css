@@ -1,0 +1,120 @@
+@media screen and (max-width: 768px) { 
+    .header-strip {
+        padding: 10px;
+    }
+
+    .right-content {
+        display: none;
+    }
+
+    .left-content {
+        width: 100%;
+        margin-top: 24px;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 62%;
+    }
+
+    .arrow-steps {
+        display: none;
+    }
+
+    .info-content h1 {
+        font-size: 26px;
+        line-height: 28px;
+        font-weight: bold;
+        letter-spacing: 0.7px;
+    }
+
+    .hero-section {
+        height: auto;
+    }
+
+    .connect-with-me {
+        font-size: 14px;
+        margin: auto;
+        width: auto;
+        margin-top: 12px;
+    }
+
+    .header-strip button {
+        font-size: 14px;
+        padding: 10px 10px;
+        width: max-content;
+    }
+
+    .section-header {
+        margin: 20px 0px 15px 0px;
+    }
+
+    .service-section {
+        height: auto;
+        padding: 0px 15px;
+    }
+
+    .section-header h4 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .section-header p {
+        width: 100%;
+    }
+
+    .service-section .card {
+        margin: 8px 0px;
+    }
+
+    .section-header h2 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .design-tools {
+        background-color: #EEEEF9;
+        padding: 20px 15px;
+    }
+
+    .design-tools .card {
+        border-radius: 13px;
+        padding: 10px 0px;
+        margin: 8px 0px;
+    }
+
+    .row-2, .second-row {
+        margin-top: 0px;
+        margin-top: 0px;
+    }
+
+    .design-flow, .education-and-exp {
+        padding: 20px 15px;
+    }
+
+    .education-and-exp {
+        height: auto;
+    }
+
+    .education-and-exp .card {
+        margin: 8px 0px;
+    }
+
+    .education-and-exp .section-header {
+        margin: 0px 0px 15px 0px;
+    }
+
+    .social-contact {
+        padding: 20px 14px;
+    }
+
+    .cardContact {
+        margin: 8px 0px;
+    }
+
+    .say-hello {
+        width: 100%;
+        background-color: #EEEEF9;
+        padding: 20px 15px;
+    }
+ }
