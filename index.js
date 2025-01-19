@@ -23,4 +23,4 @@ function typeWord() {
     }
 }
 
-intervalID = setInterval(typeWord, 100);
+intervalID = setInterval(typeWord, 100); 
