@@ -422,3 +422,13 @@ body {
     margin: auto !important;
     margin-top: 12px !important;
 }
+
+.resome_a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.resome_a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
