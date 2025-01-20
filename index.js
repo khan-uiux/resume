@@ -23,8 +23,4 @@ function typeWord() {
     }
 }
 
-<<<<<<< HEAD
 intervalID = setInterval(typeWord, 100); 
-=======
-intervalID = setInterval(typeWord, 100); 
->>>>>>> 88a1fa7a37c45b8b62a3c070b8d5390c8f2d6885
