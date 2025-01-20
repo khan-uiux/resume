@@ -423,12 +423,11 @@ body {
     margin-top: 12px !important;
 }
 
-.resome_a {
+a.resome_a {
     color: #fff;
     text-decoration: none;
 }
 
-.resome_a:hover {
-    color: #fff;
+a.resome_a:hover {
     text-decoration: underline;
 }
