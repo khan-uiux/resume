@@ -15,6 +15,12 @@ function typeWord() {
     } else {
         clearInterval(intervalID);
 
+        if (lastH1.textContent === "UI UX Designer") {
+            firstH1Span.textContent = "A"
+        } else {
+            firstH1Span.textContent = "An"
+        }
+
         setTimeout(() => {
             letterIndex = 0;
             currentWord = "";
@@ -25,10 +31,3 @@ function typeWord() {
 }
 
 intervalID = setInterval(typeWord, 100); 
-
-
-if (lastH1.textContent === "UI UX Designer") {
-    firstH1Span.textContent = "A"
-} else {
-    firstH1Span.textContent = "An"
-}
