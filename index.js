@@ -1,4 +1,4 @@
-const myArray = ["Web Designer", "Graphic Designer", "Visual Designer", "Frontend Developer"];
+const myArray = ["UI UX Designer", "Web Designer", "Graphic Designer", "Visual Designer", "Frontend Developer"];
 const lastH1 = document.querySelector('.lastH1');
 
 let letterIndex = 0;
