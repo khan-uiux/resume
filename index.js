@@ -1,5 +1,6 @@
 const myArray = ["UI UX Designer", "Web Designer", "Graphic Designer", "Visual Designer", "Frontend Developer"];
 const lastH1 = document.querySelector('.lastH1');
+const firstH1Span = document.querySelector('.firstH1Span')
 
 let letterIndex = 0;
 let wordIndex = 0;
@@ -24,3 +25,10 @@ function typeWord() {
 }
 
 intervalID = setInterval(typeWord, 100); 
+
+
+if (lastH1.textContent === "UI UX Designer") {
+    firstH1Span.textContent = "A"
+} else {
+    firstH1Span.textContent = "An"
+}
